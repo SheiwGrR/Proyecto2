@@ -1,0 +1,53 @@
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    width: 100%;
+    background: #555;
+    overflow: auto;
+}
+.navbar a{
+    float: left;
+    padding: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.navbar a:hover {
+    background-color: rgb(8,146,114);
+}
+
+.active {
+    background-color: rgb(8,146,114);
+}
+
+.responsive {
+    display:none;
+}
+
+.introduccion {
+    text-align: center;
+    margin: 0 15%;
+}
+
+i {
+    padding: 1px;
+}
+@media (max-width:600px) {
+    .responsive {
+        display: block;
+        float: right;
+        padding: 12px;
+    }
+
+    a{
+        display: none;
+    }
+}
